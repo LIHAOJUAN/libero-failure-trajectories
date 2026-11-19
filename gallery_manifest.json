@@ -1,0 +1,973 @@
+{
+  "total_count": 44,
+  "categories": [
+    {
+      "key": "contact_execution",
+      "name": "接触执行",
+      "count": 20,
+      "case_ids": [
+        "R001",
+        "R002",
+        "R003",
+        "R004",
+        "R005",
+        "R006",
+        "R009",
+        "R010",
+        "R011",
+        "R012",
+        "R013",
+        "R015",
+        "R016",
+        "R018",
+        "R020",
+        "R021",
+        "R022",
+        "R024",
+        "R038",
+        "R043"
+      ],
+      "title": "接触执行｜全部20条失败轨迹"
+    },
+    {
+      "key": "motion_geometry_interference",
+      "name": "运动/几何干扰",
+      "count": 2,
+      "case_ids": [
+        "R019",
+        "R029"
+      ],
+      "title": "运动/几何干扰｜全部2条失败轨迹"
+    },
+    {
+      "key": "interaction_stall",
+      "name": "交互停滞：接触/策略原因待分",
+      "count": 16,
+      "case_ids": [
+        "R007",
+        "R008",
+        "R017",
+        "R027",
+        "R028",
+        "R030",
+        "R031",
+        "R032",
+        "R033",
+        "R035",
+        "R036",
+        "R037",
+        "R039",
+        "R040",
+        "R041",
+        "R044"
+      ],
+      "title": "交互停滞：接触/策略原因待分｜全部16条失败轨迹"
+    },
+    {
+      "key": "terminal_criterion_unclear",
+      "name": "终态判据未明",
+      "count": 6,
+      "case_ids": [
+        "R014",
+        "R023",
+        "R025",
+        "R026",
+        "R034",
+        "R042"
+      ],
+      "title": "终态判据未明｜全部6条失败轨迹"
+    }
+  ],
+  "cases": [
+    {
+      "case_id": "R001",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 2,
+      "init": 12,
+      "task_zh": "将桌面中央的黑碗放到盘子上",
+      "bytes": 184486,
+      "sha256": "37a7c73fb833ae8a96ac3b519c749b21039dca71c3fd9236b891b5ffe016cefe",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "物体脱落",
+        "空手转移",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R001.mp4"
+    },
+    {
+      "case_id": "R002",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "init": 18,
+      "task_zh": "将木柜顶层抽屉中的黑碗放到盘子上",
+      "bytes": 187072,
+      "sha256": "61e8f4df532c40bd4e52a701ba2077f685bf599c7bbb9b52b00de21456832af6",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "目标留在抽屉",
+        "空手转移",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R002.mp4"
+    },
+    {
+      "case_id": "R003",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "init": 20,
+      "task_zh": "将木柜顶层抽屉中的黑碗放到盘子上",
+      "bytes": 183321,
+      "sha256": "c0abf6219fa28eb0f4456d1b6f7848cf1e4b304f9c27dde1cf195e413b541b2a",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "目标留在抽屉",
+        "空手转移",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R003.mp4"
+    },
+    {
+      "case_id": "R004",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "init": 25,
+      "task_zh": "将木柜顶层抽屉中的黑碗放到盘子上",
+      "bytes": 181031,
+      "sha256": "a6199e6575f949b93291b01a3db192e246106955517a5a3f108fcb75791d84ea",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "目标留在抽屉",
+        "空手转移",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R004.mp4"
+    },
+    {
+      "case_id": "R005",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 5,
+      "init": 8,
+      "task_zh": "将烤盅上的黑碗放到盘子上",
+      "bytes": 174626,
+      "sha256": "c87e226191adf8744ee8f48dfb1e074bdd97abbe56acb013b118667ac9904aba",
+      "primary_category": "接触执行",
+      "secondary_category": "连带抓取下方支撑物",
+      "secondary_tags": [
+        "连带搬运支撑物",
+        "落放后仍叠置",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R005.mp4"
+    },
+    {
+      "case_id": "R006",
+      "category_key": "contact_execution",
+      "suite": "libero_spatial",
+      "task_id": 7,
+      "init": 31,
+      "task_zh": "将炉灶上的黑碗放到盘子上",
+      "bytes": 143850,
+      "sha256": "97b801e2cc29b2650b8f2d28eaedf67d0ad84e0acc3a162e2e46a41ea6876d09",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "反复抓取无进展",
+        "目标未起运",
+        "离开目标区域",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R006.mp4"
+    },
+    {
+      "case_id": "R007",
+      "category_key": "interaction_stall",
+      "suite": "libero_object",
+      "task_id": 0,
+      "init": 2,
+      "task_zh": "将字母汤罐放入篮子",
+      "bytes": 185240,
+      "sha256": "fddd6cd9411977d20af6d362200e5ba65450bb15835ab2358003621b59895c19",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "罐体随末端微动",
+        "篮口长时停留",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R007.mp4"
+    },
+    {
+      "case_id": "R008",
+      "category_key": "interaction_stall",
+      "suite": "libero_object",
+      "task_id": 0,
+      "init": 29,
+      "task_zh": "将字母汤罐放入篮子",
+      "bytes": 213741,
+      "sha256": "52e091ced554623a4b6c9de6ad6b3ffb5353ac64e99a96caaa9ad0d2e5bc6da1",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "罐体随末端微动",
+        "篮口长时停留",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R008.mp4"
+    },
+    {
+      "case_id": "R009",
+      "category_key": "contact_execution",
+      "suite": "libero_object",
+      "task_id": 2,
+      "init": 15,
+      "task_zh": "将沙拉酱放入篮子",
+      "bytes": 228893,
+      "sha256": "435875e79e8ca6cf3e55d983480ff738593365766407402d62748ed8438a776c",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "搬运中脱落",
+        "落在篮外",
+        "未见重抓",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R009.mp4"
+    },
+    {
+      "case_id": "R010",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 1,
+      "init": 42,
+      "task_zh": "将碗放到炉灶上",
+      "bytes": 206152,
+      "sha256": "b44bd491ee57f462650fd54855699e838bdbbca990d617a403b7dc28ccd443ee",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "搬运中离手下落",
+        "目标停在炉沿",
+        "未见重新定位",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R010.mp4"
+    },
+    {
+      "case_id": "R011",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 3,
+      "init": 17,
+      "task_zh": "打开顶层抽屉并将碗放入",
+      "bytes": 232187,
+      "sha256": "77c3a3a7e5859e25872ed954606ab59c5db271f5165d2a882c9b207c1d09520e",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "抽屉入口前脱落",
+        "落在抽屉外",
+        "未见有效纠正",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R011.mp4"
+    },
+    {
+      "case_id": "R012",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 3,
+      "init": 19,
+      "task_zh": "打开顶层抽屉并将碗放入",
+      "bytes": 224746,
+      "sha256": "d01c464339884a4ee4818567fcb36dd62e245206d0b13783b8f0468cd4dfa280",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "抽屉入口前脱落",
+        "落在抽屉外",
+        "未见有效纠正",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R012.mp4"
+    },
+    {
+      "case_id": "R013",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 5,
+      "init": 9,
+      "task_zh": "将盘子推至炉灶前方的目标区域",
+      "bytes": 224781,
+      "sha256": "55a01c2033709a14265108e48f4bc9a56e7df3d33dc45d29e54a2bf94229c8ac",
+      "primary_category": "接触执行",
+      "secondary_category": "推动未形成有效位移",
+      "secondary_tags": [
+        "扫推无明显位移",
+        "目标旁局部微动",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R013.mp4"
+    },
+    {
+      "case_id": "R014",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_goal",
+      "task_id": 5,
+      "init": 23,
+      "task_zh": "将盘子推至炉灶前方的目标区域",
+      "bytes": 235706,
+      "sha256": "a3a0c46dc5a220cf763538682a7c4dac54f48ed69ee83ecb1840a3846b7bfdde",
+      "primary_category": "终态判据未明",
+      "secondary_category": "精确目标区域待核",
+      "secondary_tags": [
+        "推盘有位移",
+        "目标区域待核",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R014.mp4"
+    },
+    {
+      "case_id": "R015",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 9,
+      "init": 6,
+      "task_zh": "将酒瓶放到架上",
+      "bytes": 138525,
+      "sha256": "97db82430b16185ba823ec00dee8f6048a491a11c1c3b771a9022ecf8fb34544",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "抓取时目标倾倒",
+        "空手移向架面",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R015.mp4"
+    },
+    {
+      "case_id": "R016",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 9,
+      "init": 16,
+      "task_zh": "将酒瓶放到架上",
+      "bytes": 171155,
+      "sha256": "7d30d354d5058035ee5884aa48ce19a512d79f6a8fbe933a205d3688877a84e8",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "目标倾倒",
+        "反复局部接触",
+        "未有效起运",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R016.mp4"
+    },
+    {
+      "case_id": "R017",
+      "category_key": "interaction_stall",
+      "suite": "libero_goal",
+      "task_id": 9,
+      "init": 36,
+      "task_zh": "将酒瓶放到架上",
+      "bytes": 150104,
+      "sha256": "7d0ac10eccdc79be4c9188c4d0c83fb40f77301401f3b525081236de584ad23a",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "瓶体近水平",
+        "架面附近微调",
+        "未见清晰释放",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R017.mp4"
+    },
+    {
+      "case_id": "R018",
+      "category_key": "contact_execution",
+      "suite": "libero_goal",
+      "task_id": 9,
+      "init": 46,
+      "task_zh": "将酒瓶放到架上",
+      "bytes": 153365,
+      "sha256": "9c2b110768987fe390872d471dee68eceacd81cde919fd50a55d021b3248b5d2",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "抓取时目标倾倒",
+        "空手移向架面",
+        "未见有效重抓",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R018.mp4"
+    },
+    {
+      "case_id": "R019",
+      "category_key": "motion_geometry_interference",
+      "suite": "libero_10",
+      "task_id": 0,
+      "init": 14,
+      "task_zh": "将字母汤罐和番茄酱都放入篮子",
+      "bytes": 400121,
+      "sha256": "f4468271bd79c46cf15204f1f77022e488748548793d5a63266199b25377d151",
+      "primary_category": "运动/几何干扰",
+      "secondary_category": "扰动周边物体",
+      "secondary_tags": [
+        "未入篮",
+        "周边纸盒失稳",
+        "长时间低位挪动",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R019.mp4"
+    },
+    {
+      "case_id": "R020",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 3,
+      "init": 13,
+      "task_zh": "将黑碗放入柜子底层抽屉并关闭",
+      "bytes": 430037,
+      "sha256": "e263522ba81e8e692803882ebe5c51ff306850a40a1ed65cdc8f44794513d2df",
+      "primary_category": "接触执行",
+      "secondary_category": "关抽屉未完成",
+      "secondary_tags": [
+        "碗留在抽屉",
+        "关抽屉无明显进展",
+        "抽屉仍打开",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R020.mp4"
+    },
+    {
+      "case_id": "R021",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 3,
+      "init": 24,
+      "task_zh": "将黑碗放入柜子底层抽屉并关闭",
+      "bytes": 435947,
+      "sha256": "a1cf1e3d884563bb6ead74462ee3eddeca1ba22ab89b7ab83220baeb888cd081",
+      "primary_category": "接触执行",
+      "secondary_category": "关抽屉未完成",
+      "secondary_tags": [
+        "碗留在抽屉",
+        "关抽屉无明显进展",
+        "抽屉仍打开",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R021.mp4"
+    },
+    {
+      "case_id": "R022",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 3,
+      "init": 26,
+      "task_zh": "将黑碗放入柜子底层抽屉并关闭",
+      "bytes": 496824,
+      "sha256": "ec9df12c4521e0612fb13487c9b837c8ccc71bd7d7962e93e1f61c973e3f9aaf",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "重复起运尝试",
+        "两次脱落",
+        "未进入抽屉",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R022.mp4"
+    },
+    {
+      "case_id": "R023",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_10",
+      "task_id": 4,
+      "init": 7,
+      "task_zh": "将白杯和黄白杯分别放到指定左盘、右盘",
+      "bytes": 293062,
+      "sha256": "06d176485d9cf41eb294827ad694001455f5187872bf4cc6efe303714eb0a834",
+      "primary_category": "终态判据未明",
+      "secondary_category": "杯盘配对及 On 判据待核",
+      "secondary_tags": [
+        "双杯已搬运",
+        "杯盘投影重叠",
+        "具体盘ID及On待核",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R023.mp4"
+    },
+    {
+      "case_id": "R024",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 4,
+      "init": 9,
+      "task_zh": "将白杯和黄白杯分别放到指定左盘、右盘",
+      "bytes": 333669,
+      "sha256": "b52f614b98fa72537238936b3dc5a2299fee6c4db7f2b0381dff7c31b1f99aa6",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "黄白杯脱落",
+        "再次操作后倾倒",
+        "目标侧躺盘旁",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R024.mp4"
+    },
+    {
+      "case_id": "R025",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_10",
+      "task_id": 4,
+      "init": 18,
+      "task_zh": "将白杯和黄白杯分别放到指定左盘、右盘",
+      "bytes": 245354,
+      "sha256": "b6d06ef9c381b702aba6efa0a5bea2a19b921faeb7332edee9364086cbd00425",
+      "primary_category": "终态判据未明",
+      "secondary_category": "杯盘配对及 On 判据待核",
+      "secondary_tags": [
+        "双杯已搬运",
+        "杯盘投影重叠",
+        "具体盘ID及On待核",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R025.mp4"
+    },
+    {
+      "case_id": "R026",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_10",
+      "task_id": 4,
+      "init": 49,
+      "task_zh": "将白杯和黄白杯分别放到指定左盘、右盘",
+      "bytes": 258655,
+      "sha256": "8e90785d9dd9ec675fba1b58db993eba17795d5875e254e0f5989bbe0b87e8fe",
+      "primary_category": "终态判据未明",
+      "secondary_category": "杯盘配对及 On 判据待核",
+      "secondary_tags": [
+        "双杯已搬运",
+        "杯盘投影重叠",
+        "具体盘ID及On待核",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R026.mp4"
+    },
+    {
+      "case_id": "R027",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 4,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 348560,
+      "sha256": "2e619027cd35c42b288a20707df6f7733206d5b045cf28e841dcf1e8010915c8",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "先放置白杯",
+        "布丁局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R027.mp4"
+    },
+    {
+      "case_id": "R028",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 10,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 449538,
+      "sha256": "48a57978f015d961c32a902b2dbf3464e9c856a7cb4ca63536c8bbf1869f1816",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "抓取/支撑状态待核，局部调整停滞",
+      "secondary_tags": [
+        "布丁随末端相关位移",
+        "长时间局部微调",
+        "稳定抓取未确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R028.mp4"
+    },
+    {
+      "case_id": "R029",
+      "category_key": "motion_geometry_interference",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 11,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 400731,
+      "sha256": "e9631d7ba50678cd09bfc586b5ec372384ce446a9a9446600371601ab14a9e9e",
+      "primary_category": "运动/几何干扰",
+      "secondary_category": "扰动已放置目标",
+      "secondary_tags": [
+        "先放置的杯子被扰动",
+        "杯体明显倾斜",
+        "布丁放置未清晰完成",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R029.mp4"
+    },
+    {
+      "case_id": "R030",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 16,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 399751,
+      "sha256": "a070884e56b882c7bb5893359ff673ad4edede1d8c0e518aefab06e1e5584e3b",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "布丁移至杯柄旁",
+        "长时间局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R030.mp4"
+    },
+    {
+      "case_id": "R031",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 26,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 406661,
+      "sha256": "a56077913e02d47b4b24d54bb2ed2c9a3911410f27ea5551dc0a7d8a5a644865",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "布丁移至杯柄旁",
+        "长时间局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R031.mp4"
+    },
+    {
+      "case_id": "R032",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 27,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 443101,
+      "sha256": "b50f2bf1dfbc494eb78e9bb56a43c5f372c3a3a498aa38b4baf683c38218543a",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "布丁移至杯柄旁",
+        "长时间局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R032.mp4"
+    },
+    {
+      "case_id": "R033",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 30,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 375723,
+      "sha256": "fb9b15a622963c187a1e3c7fc34c462f9b486277ec5b0e8f188e6534057ff33e",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "布丁移至杯柄旁",
+        "长时间局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R033.mp4"
+    },
+    {
+      "case_id": "R034",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 32,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 484239,
+      "sha256": "4b1daeb387158431d514043fb17b52b773c57c1721e2b4882845e9a757db06f5",
+      "primary_category": "终态判据未明",
+      "secondary_category": "精确目标区域待核",
+      "secondary_tags": [
+        "布丁斜放杯柄旁",
+        "长时间局部微动",
+        "目标区域待核",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R034.mp4"
+    },
+    {
+      "case_id": "R035",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 6,
+      "init": 38,
+      "task_zh": "将白杯放到盘上，并将巧克力布丁放到盘右侧目标区域",
+      "bytes": 336361,
+      "sha256": "060bc7652f8f82b516a54bbf6f791a6e97347a630067ac8bba4b081ca1044e9a",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "布丁移至杯柄旁",
+        "长时间局部微动",
+        "释放未清晰确认",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R035.mp4"
+    },
+    {
+      "case_id": "R036",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 1,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 375648,
+      "sha256": "f8796ebd96c754f2108cf94ac056eb7fd08d76701a0e198272bb5ebc53cfe748",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "抓取或起运阶段停滞",
+      "secondary_tags": [
+        "第二壶炉外停留",
+        "长时局部接触",
+        "壶体倾斜",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R036.mp4"
+    },
+    {
+      "case_id": "R037",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 5,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 314136,
+      "sha256": "84a97b028d5edc632f645b27b07ee608b1634a3467f656975fc4adedd937694d",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "抓取或起运阶段停滞",
+      "secondary_tags": [
+        "第二壶炉外停留",
+        "长时局部接触",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R037.mp4"
+    },
+    {
+      "case_id": "R038",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 9,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 404670,
+      "sha256": "2b866d6cd28c839e08749f8766aa5badd3812fd82a7f8d355c1112b583c46b29",
+      "primary_category": "接触执行",
+      "secondary_category": "抓取或起运未建立",
+      "secondary_tags": [
+        "空手跨区移动",
+        "第二壶未转移",
+        "已置第一壶倾斜",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R038.mp4"
+    },
+    {
+      "case_id": "R039",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 15,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 418581,
+      "sha256": "36c4adef2b133dc0d93b09367341838fc1b7a0c945a41a03c9acaed512ee39e8",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "抓取阶段长时停留",
+        "第二壶末段到炉面",
+        "终帧仍接触把手",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R039.mp4"
+    },
+    {
+      "case_id": "R040",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 36,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 373545,
+      "sha256": "d028b42a7558b3280a6797dfecca6d44c00df2d543e9175fbd57a4cd42fcc814",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "首壶放置长时停留",
+        "第二壶末段到炉面",
+        "未见清晰释放",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R040.mp4"
+    },
+    {
+      "case_id": "R041",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 8,
+      "init": 45,
+      "task_zh": "将两只摩卡壶放到炉灶上",
+      "bytes": 343149,
+      "sha256": "dab3ebbc133a19a754f7cd5acfdd42982a604091feb51e9e3f11b78c98cef37d",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "抓取或起运阶段停滞",
+      "secondary_tags": [
+        "第二壶炉外停留",
+        "长时局部接触",
+        "壶体倾斜",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R041.mp4"
+    },
+    {
+      "case_id": "R042",
+      "category_key": "terminal_criterion_unclear",
+      "suite": "libero_10",
+      "task_id": 9,
+      "init": 16,
+      "task_zh": "将黄白杯放入微波炉并关闭炉门",
+      "bytes": 388038,
+      "sha256": "4d3bb142b7aef6614400eb5f3217d1260330aa94a6ecd08a5796fcaeee221ee5",
+      "primary_category": "终态判据未明",
+      "secondary_category": "容器内部及闭合终态被遮挡",
+      "secondary_tags": [
+        "入口处倾斜放置",
+        "后续转入关门",
+        "最终杯体被遮挡",
+        "动作预算耗尽",
+        "待状态核验",
+        "恢复未验证"
+      ],
+      "video_relative_path": "videos/R042.mp4"
+    },
+    {
+      "case_id": "R043",
+      "category_key": "contact_execution",
+      "suite": "libero_10",
+      "task_id": 9,
+      "init": 19,
+      "task_zh": "将黄白杯放入微波炉并关闭炉门",
+      "bytes": 407801,
+      "sha256": "291c3223fab616ef5fcb9d3d90a364109edb2d760a74211379393206ee29df53",
+      "primary_category": "接触执行",
+      "secondary_category": "搬运或放置失稳：脱落、倾倒",
+      "secondary_tags": [
+        "杯子脱手外落",
+        "未重抓即转入关门",
+        "杯子侧躺目标外",
+        "异常后仍推进后续动作",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R043.mp4"
+    },
+    {
+      "case_id": "R044",
+      "category_key": "interaction_stall",
+      "suite": "libero_10",
+      "task_id": 9,
+      "init": 20,
+      "task_zh": "将黄白杯放入微波炉并关闭炉门",
+      "bytes": 314655,
+      "sha256": "788313a222d6826158013bf7874141585c98ce79d31df3054fb6a447ffabd0d2",
+      "primary_category": "交互停滞：接触/策略原因待分",
+      "secondary_category": "放置邻域长时间停滞",
+      "secondary_tags": [
+        "入口长时停留",
+        "杯体明显倾斜",
+        "未见释放及关门",
+        "动作预算耗尽",
+        "补救候选（未验证）"
+      ],
+      "video_relative_path": "videos/R044.mp4"
+    }
+  ]
+}

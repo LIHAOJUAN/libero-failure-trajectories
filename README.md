@@ -1,2 +1,3 @@
-# libero-failure-trajectories
-LIBERO failure trajectories: 44 videos with hierarchical labels
+# LIBERO 失败轨迹
+
+44 条失败轨迹，包含一级分类、二级分类与次级标签。网页及视频均使用相对路径。
